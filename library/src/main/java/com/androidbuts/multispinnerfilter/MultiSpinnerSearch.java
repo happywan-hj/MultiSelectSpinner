@@ -143,7 +143,7 @@ public class MultiSpinnerSearch extends AppCompatSpinner implements OnCancelList
     @Override
     public boolean performClick() {
 
-        super.performClick();
+        //super.performClick();
         builder = new AlertDialog.Builder(getContext());
         builder.setTitle(spinnerTitle);
 
