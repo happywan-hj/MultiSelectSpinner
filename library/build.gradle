@@ -17,6 +17,9 @@ ext {
     developerId = 'pratikbutani'
     developerName = 'Pratik Butani'
     developerEmail = 'pratik13butani@gmail.com'
+    
+    forkedDevId = 'happywan'
+    forkedDevName = 'Happywan'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
