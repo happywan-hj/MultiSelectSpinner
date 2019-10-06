@@ -181,8 +181,9 @@ public class MultiSpinnerSearch extends AppCompatSpinner implements OnCancelList
         });
         /*
         Added Select all Dialog Button.
+        Modified by Happywan 20191006, Remove the SelectAll Button for some unwanted feature
          */
-        builder.setNeutralButton(android.R.string.selectAll, new DialogInterface.OnClickListener() {
+        /*builder.setNeutralButton(android.R.string.selectAll, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 adapter.arrayList = adapter.mOriginalValues;
@@ -194,7 +195,7 @@ public class MultiSpinnerSearch extends AppCompatSpinner implements OnCancelList
 
 
             }
-        });
+        });*/
 
         builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
 
