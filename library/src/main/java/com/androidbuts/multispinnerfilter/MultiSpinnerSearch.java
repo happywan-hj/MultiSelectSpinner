@@ -225,6 +225,7 @@ public class MultiSpinnerSearch extends AppCompatSpinner implements OnCancelList
             if (items.get(i).isSelected()) {
                 spinnerBuffer.append(items.get(i).getName());
                 spinnerBuffer.append(", ");
+                selected++;
             }
         }
         if (spinnerBuffer.length() > 2)
